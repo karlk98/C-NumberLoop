@@ -10,6 +10,15 @@ namespace NumberLoop
     {
         static void Main(string[] args)
         {
+            int num1 = 0;
+            string space = " ";
+            do
+            {
+                num1++;
+                Console.Write(num1 + space);
+            }
+            while (num1 < 100);
+            Console.ReadKey();
         }
     }
 }
